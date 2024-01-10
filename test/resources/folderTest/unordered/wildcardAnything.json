@@ -1,0 +1,509 @@
+{
+	"title": "cpsc310AllData2",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"IS": {
+						"sections_id": "310"
+					}
+				},
+				{
+					"IS": {
+						"sections_instructor": "*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year",
+				"sections_avg",
+				"sections_pass",
+				"sections_fail",
+				"sections_audit"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "1293",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "palyart-lamarche, marc",
+			"sections_dept": "cpsc",
+			"sections_year": 2014,
+			"sections_avg": 78.69,
+			"sections_pass": 156,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "1294",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "baniassad, elisa",
+			"sections_dept": "cpsc",
+			"sections_year": 2014,
+			"sections_avg": 80.35,
+			"sections_pass": 150,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "1295",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 79.5,
+			"sections_pass": 306,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "3393",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "holmes, reid",
+			"sections_dept": "cpsc",
+			"sections_year": 2016,
+			"sections_avg": 81.17,
+			"sections_pass": 139,
+			"sections_fail": 3,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "3394",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 81.17,
+			"sections_pass": 139,
+			"sections_fail": 3,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "25818",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2010,
+			"sections_avg": 81.88,
+			"sections_pass": 31,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "25819",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 81.88,
+			"sections_pass": 31,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "39884",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 2008,
+			"sections_avg": 84.6,
+			"sections_pass": 47,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "39885",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 84.6,
+			"sections_pass": 47,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "43202",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012,
+			"sections_avg": 80.34,
+			"sections_pass": 66,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "43203",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 80.34,
+			"sections_pass": 66,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "46694",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009,
+			"sections_avg": 77.63,
+			"sections_pass": 97,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "46695",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009,
+			"sections_avg": 73.16,
+			"sections_pass": 81,
+			"sections_fail": 5,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "46696",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 75.54,
+			"sections_pass": 178,
+			"sections_fail": 6,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "49892",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "wohlstadter, eric",
+			"sections_dept": "cpsc",
+			"sections_year": 2013,
+			"sections_avg": 80.24,
+			"sections_pass": 156,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "49893",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2013,
+			"sections_avg": 74.99,
+			"sections_pass": 133,
+			"sections_fail": 4,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "49894",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 77.8,
+			"sections_pass": 289,
+			"sections_fail": 5,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "52004",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 2008,
+			"sections_avg": 75.4,
+			"sections_pass": 82,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "52005",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 2008,
+			"sections_avg": 76.52,
+			"sections_pass": 86,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "52006",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 75.97,
+			"sections_pass": 168,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "61122",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "ernst, neil",
+			"sections_dept": "cpsc",
+			"sections_year": 2011,
+			"sections_avg": 77.78,
+			"sections_pass": 101,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "61123",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "ernst, neil",
+			"sections_dept": "cpsc",
+			"sections_year": 2011,
+			"sections_avg": 76.31,
+			"sections_pass": 83,
+			"sections_fail": 2,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "61124",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 77.11,
+			"sections_pass": 184,
+			"sections_fail": 2,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "62385",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "baniassad, elisa",
+			"sections_dept": "cpsc",
+			"sections_year": 2015,
+			"sections_avg": 77.13,
+			"sections_pass": 185,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "62386",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "baniassad, elisa",
+			"sections_dept": "cpsc",
+			"sections_year": 2015,
+			"sections_avg": 81.18,
+			"sections_pass": 162,
+			"sections_fail": 3,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "62387",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 79.04,
+			"sections_pass": 347,
+			"sections_fail": 3,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "67312",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "baniassad, elisa",
+			"sections_dept": "cpsc",
+			"sections_year": 2014,
+			"sections_avg": 79.12,
+			"sections_pass": 75,
+			"sections_fail": 1,
+			"sections_audit": 1
+		},
+		{
+			"sections_uuid": "67313",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 79.12,
+			"sections_pass": 75,
+			"sections_fail": 1,
+			"sections_audit": 2
+		},
+		{
+			"sections_uuid": "72359",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2010,
+			"sections_avg": 80.32,
+			"sections_pass": 92,
+			"sections_fail": 1,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "72360",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "fritz, thomas",
+			"sections_dept": "cpsc",
+			"sections_year": 2010,
+			"sections_avg": 75.57,
+			"sections_pass": 62,
+			"sections_fail": 6,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "72361",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 78.32,
+			"sections_pass": 154,
+			"sections_fail": 7,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "75605",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009,
+			"sections_avg": 78.68,
+			"sections_pass": 22,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "75606",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 78.68,
+			"sections_pass": 22,
+			"sections_fail": 0,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "83431",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012,
+			"sections_avg": 78.22,
+			"sections_pass": 154,
+			"sections_fail": 2,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "83432",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012,
+			"sections_avg": 72.27,
+			"sections_pass": 101,
+			"sections_fail": 6,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "83433",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 75.8,
+			"sections_pass": 255,
+			"sections_fail": 8,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "90539",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "shepherd, david",
+			"sections_dept": "cpsc",
+			"sections_year": 2007,
+			"sections_avg": 74.45,
+			"sections_pass": 76,
+			"sections_fail": 2,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "90540",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "shepherd, david",
+			"sections_dept": "cpsc",
+			"sections_year": 2007,
+			"sections_avg": 75.72,
+			"sections_pass": 90,
+			"sections_fail": 2,
+			"sections_audit": 0
+		},
+		{
+			"sections_uuid": "90541",
+			"sections_id": "310",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900,
+			"sections_avg": 75.14,
+			"sections_pass": 166,
+			"sections_fail": 4,
+			"sections_audit": 0
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"title": "invalidKeyTypeID",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"LT": {
+						"sections_id": "310"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,185 @@
+{
+	"title": "orderByInstructorName",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"IS": {
+						"sections_id": "310"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			],
+			"ORDER": "sections_instructor"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "1295",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "3394",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "25819",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "39884",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "39885",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "43203",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "46696",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "49894",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "52004",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "52005",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "52006",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "61124",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "62387",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "67313",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "72361",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "75606",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "83433",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "90541",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "25818",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "43202",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "46694",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "46695",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "49893",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "72359",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "75605",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "83431",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "83432",
+			"sections_instructor": "allen, meghan"
+		},
+		{
+			"sections_uuid": "1294",
+			"sections_instructor": "baniassad, elisa"
+		},
+		{
+			"sections_uuid": "62385",
+			"sections_instructor": "baniassad, elisa"
+		},
+		{
+			"sections_uuid": "62386",
+			"sections_instructor": "baniassad, elisa"
+		},
+		{
+			"sections_uuid": "67312",
+			"sections_instructor": "baniassad, elisa"
+		},
+		{
+			"sections_uuid": "61122",
+			"sections_instructor": "ernst, neil"
+		},
+		{
+			"sections_uuid": "61123",
+			"sections_instructor": "ernst, neil"
+		},
+		{
+			"sections_uuid": "72360",
+			"sections_instructor": "fritz, thomas"
+		},
+		{
+			"sections_uuid": "3393",
+			"sections_instructor": "holmes, reid"
+		},
+		{
+			"sections_uuid": "1293",
+			"sections_instructor": "palyart-lamarche, marc"
+		},
+		{
+			"sections_uuid": "90539",
+			"sections_instructor": "shepherd, david"
+		},
+		{
+			"sections_uuid": "90540",
+			"sections_instructor": "shepherd, david"
+		},
+		{
+			"sections_uuid": "49892",
+			"sections_instructor": "wohlstadter, eric"
+		}
+	]
+}

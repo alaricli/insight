@@ -1,0 +1,15 @@
+{
+	"title": "transformInvalid",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"overallAvg"
+			]
+		},
+		"TRANSFORMATIONS": ""
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

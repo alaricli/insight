@@ -1,0 +1,831 @@
+{
+	"title": "startsWithInputString",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "math"
+					}
+				},
+				{
+					"IS": {
+						"sections_title": "intr*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "3829"
+		},
+		{
+			"sections_uuid": "3830"
+		},
+		{
+			"sections_uuid": "5205"
+		},
+		{
+			"sections_uuid": "5206"
+		},
+		{
+			"sections_uuid": "13773"
+		},
+		{
+			"sections_uuid": "13774"
+		},
+		{
+			"sections_uuid": "27292"
+		},
+		{
+			"sections_uuid": "27293"
+		},
+		{
+			"sections_uuid": "29816"
+		},
+		{
+			"sections_uuid": "29817"
+		},
+		{
+			"sections_uuid": "34037"
+		},
+		{
+			"sections_uuid": "34038"
+		},
+		{
+			"sections_uuid": "47089"
+		},
+		{
+			"sections_uuid": "47090"
+		},
+		{
+			"sections_uuid": "72981"
+		},
+		{
+			"sections_uuid": "72982"
+		},
+		{
+			"sections_uuid": "90047"
+		},
+		{
+			"sections_uuid": "90048"
+		},
+		{
+			"sections_uuid": "3893"
+		},
+		{
+			"sections_uuid": "3894"
+		},
+		{
+			"sections_uuid": "3895"
+		},
+		{
+			"sections_uuid": "3896"
+		},
+		{
+			"sections_uuid": "5264"
+		},
+		{
+			"sections_uuid": "5265"
+		},
+		{
+			"sections_uuid": "5266"
+		},
+		{
+			"sections_uuid": "5267"
+		},
+		{
+			"sections_uuid": "5268"
+		},
+		{
+			"sections_uuid": "13835"
+		},
+		{
+			"sections_uuid": "13836"
+		},
+		{
+			"sections_uuid": "13837"
+		},
+		{
+			"sections_uuid": "13838"
+		},
+		{
+			"sections_uuid": "13839"
+		},
+		{
+			"sections_uuid": "27353"
+		},
+		{
+			"sections_uuid": "27354"
+		},
+		{
+			"sections_uuid": "27355"
+		},
+		{
+			"sections_uuid": "27356"
+		},
+		{
+			"sections_uuid": "29870"
+		},
+		{
+			"sections_uuid": "29871"
+		},
+		{
+			"sections_uuid": "29872"
+		},
+		{
+			"sections_uuid": "29873"
+		},
+		{
+			"sections_uuid": "29874"
+		},
+		{
+			"sections_uuid": "34095"
+		},
+		{
+			"sections_uuid": "34096"
+		},
+		{
+			"sections_uuid": "34097"
+		},
+		{
+			"sections_uuid": "34098"
+		},
+		{
+			"sections_uuid": "47145"
+		},
+		{
+			"sections_uuid": "47146"
+		},
+		{
+			"sections_uuid": "47147"
+		},
+		{
+			"sections_uuid": "47148"
+		},
+		{
+			"sections_uuid": "73043"
+		},
+		{
+			"sections_uuid": "73044"
+		},
+		{
+			"sections_uuid": "73045"
+		},
+		{
+			"sections_uuid": "73046"
+		},
+		{
+			"sections_uuid": "90104"
+		},
+		{
+			"sections_uuid": "90105"
+		},
+		{
+			"sections_uuid": "90106"
+		},
+		{
+			"sections_uuid": "90107"
+		},
+		{
+			"sections_uuid": "3899"
+		},
+		{
+			"sections_uuid": "3900"
+		},
+		{
+			"sections_uuid": "3901"
+		},
+		{
+			"sections_uuid": "5271"
+		},
+		{
+			"sections_uuid": "5272"
+		},
+		{
+			"sections_uuid": "5273"
+		},
+		{
+			"sections_uuid": "13843"
+		},
+		{
+			"sections_uuid": "13844"
+		},
+		{
+			"sections_uuid": "13845"
+		},
+		{
+			"sections_uuid": "23164"
+		},
+		{
+			"sections_uuid": "23165"
+		},
+		{
+			"sections_uuid": "24704"
+		},
+		{
+			"sections_uuid": "24705"
+		},
+		{
+			"sections_uuid": "27359"
+		},
+		{
+			"sections_uuid": "27360"
+		},
+		{
+			"sections_uuid": "27361"
+		},
+		{
+			"sections_uuid": "29877"
+		},
+		{
+			"sections_uuid": "29878"
+		},
+		{
+			"sections_uuid": "29879"
+		},
+		{
+			"sections_uuid": "34101"
+		},
+		{
+			"sections_uuid": "34102"
+		},
+		{
+			"sections_uuid": "34103"
+		},
+		{
+			"sections_uuid": "47151"
+		},
+		{
+			"sections_uuid": "47152"
+		},
+		{
+			"sections_uuid": "47153"
+		},
+		{
+			"sections_uuid": "48167"
+		},
+		{
+			"sections_uuid": "48168"
+		},
+		{
+			"sections_uuid": "61295"
+		},
+		{
+			"sections_uuid": "61296"
+		},
+		{
+			"sections_uuid": "68502"
+		},
+		{
+			"sections_uuid": "68503"
+		},
+		{
+			"sections_uuid": "73049"
+		},
+		{
+			"sections_uuid": "73050"
+		},
+		{
+			"sections_uuid": "73051"
+		},
+		{
+			"sections_uuid": "90110"
+		},
+		{
+			"sections_uuid": "90111"
+		},
+		{
+			"sections_uuid": "90112"
+		},
+		{
+			"sections_uuid": "94431"
+		},
+		{
+			"sections_uuid": "94432"
+		},
+		{
+			"sections_uuid": "97019"
+		},
+		{
+			"sections_uuid": "97020"
+		},
+		{
+			"sections_uuid": "3902"
+		},
+		{
+			"sections_uuid": "3903"
+		},
+		{
+			"sections_uuid": "5274"
+		},
+		{
+			"sections_uuid": "5275"
+		},
+		{
+			"sections_uuid": "13846"
+		},
+		{
+			"sections_uuid": "13847"
+		},
+		{
+			"sections_uuid": "27362"
+		},
+		{
+			"sections_uuid": "27363"
+		},
+		{
+			"sections_uuid": "29880"
+		},
+		{
+			"sections_uuid": "29881"
+		},
+		{
+			"sections_uuid": "34104"
+		},
+		{
+			"sections_uuid": "34105"
+		},
+		{
+			"sections_uuid": "47154"
+		},
+		{
+			"sections_uuid": "47155"
+		},
+		{
+			"sections_uuid": "73052"
+		},
+		{
+			"sections_uuid": "73053"
+		},
+		{
+			"sections_uuid": "90113"
+		},
+		{
+			"sections_uuid": "90114"
+		},
+		{
+			"sections_uuid": "3914"
+		},
+		{
+			"sections_uuid": "3915"
+		},
+		{
+			"sections_uuid": "5284"
+		},
+		{
+			"sections_uuid": "5285"
+		},
+		{
+			"sections_uuid": "13857"
+		},
+		{
+			"sections_uuid": "13858"
+		},
+		{
+			"sections_uuid": "23168"
+		},
+		{
+			"sections_uuid": "23169"
+		},
+		{
+			"sections_uuid": "24708"
+		},
+		{
+			"sections_uuid": "24709"
+		},
+		{
+			"sections_uuid": "27374"
+		},
+		{
+			"sections_uuid": "27375"
+		},
+		{
+			"sections_uuid": "29890"
+		},
+		{
+			"sections_uuid": "29891"
+		},
+		{
+			"sections_uuid": "31978"
+		},
+		{
+			"sections_uuid": "31979"
+		},
+		{
+			"sections_uuid": "34116"
+		},
+		{
+			"sections_uuid": "34117"
+		},
+		{
+			"sections_uuid": "47164"
+		},
+		{
+			"sections_uuid": "47165"
+		},
+		{
+			"sections_uuid": "48171"
+		},
+		{
+			"sections_uuid": "48172"
+		},
+		{
+			"sections_uuid": "61299"
+		},
+		{
+			"sections_uuid": "61300"
+		},
+		{
+			"sections_uuid": "68506"
+		},
+		{
+			"sections_uuid": "68507"
+		},
+		{
+			"sections_uuid": "73063"
+		},
+		{
+			"sections_uuid": "73064"
+		},
+		{
+			"sections_uuid": "90125"
+		},
+		{
+			"sections_uuid": "90126"
+		},
+		{
+			"sections_uuid": "94435"
+		},
+		{
+			"sections_uuid": "94436"
+		},
+		{
+			"sections_uuid": "97023"
+		},
+		{
+			"sections_uuid": "97024"
+		},
+		{
+			"sections_uuid": "3931"
+		},
+		{
+			"sections_uuid": "3932"
+		},
+		{
+			"sections_uuid": "5301"
+		},
+		{
+			"sections_uuid": "5302"
+		},
+		{
+			"sections_uuid": "13876"
+		},
+		{
+			"sections_uuid": "13877"
+		},
+		{
+			"sections_uuid": "27393"
+		},
+		{
+			"sections_uuid": "27394"
+		},
+		{
+			"sections_uuid": "29908"
+		},
+		{
+			"sections_uuid": "29909"
+		},
+		{
+			"sections_uuid": "34133"
+		},
+		{
+			"sections_uuid": "34134"
+		},
+		{
+			"sections_uuid": "47181"
+		},
+		{
+			"sections_uuid": "47182"
+		},
+		{
+			"sections_uuid": "73082"
+		},
+		{
+			"sections_uuid": "73083"
+		},
+		{
+			"sections_uuid": "90144"
+		},
+		{
+			"sections_uuid": "90145"
+		},
+		{
+			"sections_uuid": "3933"
+		},
+		{
+			"sections_uuid": "3934"
+		},
+		{
+			"sections_uuid": "5305"
+		},
+		{
+			"sections_uuid": "5306"
+		},
+		{
+			"sections_uuid": "5307"
+		},
+		{
+			"sections_uuid": "13878"
+		},
+		{
+			"sections_uuid": "13879"
+		},
+		{
+			"sections_uuid": "27397"
+		},
+		{
+			"sections_uuid": "27398"
+		},
+		{
+			"sections_uuid": "29910"
+		},
+		{
+			"sections_uuid": "29911"
+		},
+		{
+			"sections_uuid": "34137"
+		},
+		{
+			"sections_uuid": "34138"
+		},
+		{
+			"sections_uuid": "47185"
+		},
+		{
+			"sections_uuid": "47186"
+		},
+		{
+			"sections_uuid": "47187"
+		},
+		{
+			"sections_uuid": "47188"
+		},
+		{
+			"sections_uuid": "68512"
+		},
+		{
+			"sections_uuid": "68513"
+		},
+		{
+			"sections_uuid": "73084"
+		},
+		{
+			"sections_uuid": "73085"
+		},
+		{
+			"sections_uuid": "90148"
+		},
+		{
+			"sections_uuid": "90149"
+		},
+		{
+			"sections_uuid": "90150"
+		},
+		{
+			"sections_uuid": "97029"
+		},
+		{
+			"sections_uuid": "97030"
+		},
+		{
+			"sections_uuid": "3935"
+		},
+		{
+			"sections_uuid": "3936"
+		},
+		{
+			"sections_uuid": "3937"
+		},
+		{
+			"sections_uuid": "3938"
+		},
+		{
+			"sections_uuid": "5308"
+		},
+		{
+			"sections_uuid": "5309"
+		},
+		{
+			"sections_uuid": "5310"
+		},
+		{
+			"sections_uuid": "5311"
+		},
+		{
+			"sections_uuid": "13880"
+		},
+		{
+			"sections_uuid": "13881"
+		},
+		{
+			"sections_uuid": "13882"
+		},
+		{
+			"sections_uuid": "13883"
+		},
+		{
+			"sections_uuid": "23174"
+		},
+		{
+			"sections_uuid": "23175"
+		},
+		{
+			"sections_uuid": "24714"
+		},
+		{
+			"sections_uuid": "24715"
+		},
+		{
+			"sections_uuid": "27399"
+		},
+		{
+			"sections_uuid": "27400"
+		},
+		{
+			"sections_uuid": "27401"
+		},
+		{
+			"sections_uuid": "27402"
+		},
+		{
+			"sections_uuid": "29912"
+		},
+		{
+			"sections_uuid": "29913"
+		},
+		{
+			"sections_uuid": "29914"
+		},
+		{
+			"sections_uuid": "29915"
+		},
+		{
+			"sections_uuid": "34139"
+		},
+		{
+			"sections_uuid": "34140"
+		},
+		{
+			"sections_uuid": "34141"
+		},
+		{
+			"sections_uuid": "34142"
+		},
+		{
+			"sections_uuid": "47189"
+		},
+		{
+			"sections_uuid": "47190"
+		},
+		{
+			"sections_uuid": "47191"
+		},
+		{
+			"sections_uuid": "47192"
+		},
+		{
+			"sections_uuid": "48177"
+		},
+		{
+			"sections_uuid": "48178"
+		},
+		{
+			"sections_uuid": "61305"
+		},
+		{
+			"sections_uuid": "61306"
+		},
+		{
+			"sections_uuid": "68514"
+		},
+		{
+			"sections_uuid": "68515"
+		},
+		{
+			"sections_uuid": "73086"
+		},
+		{
+			"sections_uuid": "73087"
+		},
+		{
+			"sections_uuid": "73088"
+		},
+		{
+			"sections_uuid": "73089"
+		},
+		{
+			"sections_uuid": "90151"
+		},
+		{
+			"sections_uuid": "90152"
+		},
+		{
+			"sections_uuid": "90153"
+		},
+		{
+			"sections_uuid": "90154"
+		},
+		{
+			"sections_uuid": "94441"
+		},
+		{
+			"sections_uuid": "94442"
+		},
+		{
+			"sections_uuid": "97031"
+		},
+		{
+			"sections_uuid": "97032"
+		},
+		{
+			"sections_uuid": "5341"
+		},
+		{
+			"sections_uuid": "5342"
+		},
+		{
+			"sections_uuid": "27438"
+		},
+		{
+			"sections_uuid": "27439"
+		},
+		{
+			"sections_uuid": "31998"
+		},
+		{
+			"sections_uuid": "31999"
+		},
+		{
+			"sections_uuid": "34172"
+		},
+		{
+			"sections_uuid": "34173"
+		},
+		{
+			"sections_uuid": "47220"
+		},
+		{
+			"sections_uuid": "47221"
+		},
+		{
+			"sections_uuid": "73119"
+		},
+		{
+			"sections_uuid": "73120"
+		},
+		{
+			"sections_uuid": "90184"
+		},
+		{
+			"sections_uuid": "90185"
+		},
+		{
+			"sections_uuid": "4017"
+		},
+		{
+			"sections_uuid": "4018"
+		},
+		{
+			"sections_uuid": "5393"
+		},
+		{
+			"sections_uuid": "5394"
+		},
+		{
+			"sections_uuid": "29990"
+		},
+		{
+			"sections_uuid": "29991"
+		},
+		{
+			"sections_uuid": "34226"
+		},
+		{
+			"sections_uuid": "34227"
+		},
+		{
+			"sections_uuid": "90234"
+		},
+		{
+			"sections_uuid": "90235"
+		}
+	]
+}

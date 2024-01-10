@@ -1,0 +1,23 @@
+{
+	"title": "transformationEmptyApplyRule",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"*",
+				"!"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title"
+			],
+			"APPLY": [
+				{}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,112 @@
+{
+	"title": "negation",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"IS": {
+						"sections_id": "310"
+					}
+				},
+				{
+					"NOT": {
+						"GT": {
+							"sections_year": 2010
+						}
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "1295"
+		},
+		{
+			"sections_uuid": "3394"
+		},
+		{
+			"sections_uuid": "25818"
+		},
+		{
+			"sections_uuid": "25819"
+		},
+		{
+			"sections_uuid": "39884"
+		},
+		{
+			"sections_uuid": "39885"
+		},
+		{
+			"sections_uuid": "43203"
+		},
+		{
+			"sections_uuid": "46694"
+		},
+		{
+			"sections_uuid": "46695"
+		},
+		{
+			"sections_uuid": "46696"
+		},
+		{
+			"sections_uuid": "49894"
+		},
+		{
+			"sections_uuid": "52004"
+		},
+		{
+			"sections_uuid": "52005"
+		},
+		{
+			"sections_uuid": "52006"
+		},
+		{
+			"sections_uuid": "61124"
+		},
+		{
+			"sections_uuid": "62387"
+		},
+		{
+			"sections_uuid": "67313"
+		},
+		{
+			"sections_uuid": "72359"
+		},
+		{
+			"sections_uuid": "72360"
+		},
+		{
+			"sections_uuid": "72361"
+		},
+		{
+			"sections_uuid": "75605"
+		},
+		{
+			"sections_uuid": "75606"
+		},
+		{
+			"sections_uuid": "83433"
+		},
+		{
+			"sections_uuid": "90539"
+		},
+		{
+			"sections_uuid": "90540"
+		},
+		{
+			"sections_uuid": "90541"
+		}
+	]
+}

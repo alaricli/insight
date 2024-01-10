@@ -1,0 +1,21 @@
+.App-header-text {
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: gold;
+	background-color: navy;
+}
+
+.Buttons {
+    text-align: center;
+}
+
+.Button {
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.display {
+    text-align: center;
+}

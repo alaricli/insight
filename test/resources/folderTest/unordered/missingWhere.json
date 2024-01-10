@@ -1,0 +1,12 @@
+{
+	"title": "missingWhere",
+	"input": {
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

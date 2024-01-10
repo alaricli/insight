@@ -1,0 +1,31 @@
+{
+  "title": "query just under 5000 results",
+  "input": {
+    "WHERE": {
+      "OR": [
+        {
+          "IS": {
+            "sections_dept": "math"
+          }
+        },
+        {
+          "IS": {
+            "sections_dept": "cpsc"
+          }
+        },
+        {
+          "IS": {
+            "sections_dept": "chem"
+          }
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_uuid"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "ResultTooLargeError"
+}

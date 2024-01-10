@@ -1,0 +1,13 @@
+{
+  "title": "query just under 5000 results",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "a_uuid"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

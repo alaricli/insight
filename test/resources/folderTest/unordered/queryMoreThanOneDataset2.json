@@ -1,0 +1,17 @@
+{
+  "title": "query just under 5000 results",
+  "input": {
+    "WHERE": {
+      "IS": {
+        "a_dept": "cpsc"
+      }
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_uuid"
+      ]
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

@@ -1,0 +1,29 @@
+{
+	"title": "transformOrderInvalid",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "cpsc"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"sections_year",
+				"sections_avg"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_id",
+					"sections_year",
+					"sections_avg"
+				],
+				"a": 1
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

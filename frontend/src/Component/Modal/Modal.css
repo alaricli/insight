@@ -1,0 +1,21 @@
+.description {
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+.modal-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input {
+	width: 90%; /* Makes the input take the full width of the parent */
+	margin-bottom: 10px; /* Adds some space between the elements */
+	display: block;
+}
+
+.error-message {
+	color: red;
+	margin: 10px 0;
+}
