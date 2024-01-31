@@ -10,7 +10,7 @@ First, clone this repository to your local machine:
 
 Navigate to the root directory of the project and start the TypeScript back end:
 
-cd Insight
+cd Insight 
 npm start
 
 # Start the Frontend
