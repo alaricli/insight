@@ -24,7 +24,7 @@ npm start
 
 #Download Sample Dataset
 
-To use the project effectively, you'll need a sample dataset. Download it [Link here](https://github.com/ubccpsc/310/raw/main/resources/archives/pair.zip):
+To use the project effectively, you'll need a sample dataset. Download it [here](https://github.com/ubccpsc/310/raw/main/resources/archives/pair.zip):
 
 #Input Dataset Using Postman
 
