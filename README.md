@@ -6,14 +6,12 @@
 
 First, clone this repository to your local machine:
 
-git clone git@github.com:alaricli/insight.git
-
 # Start the Backend
 
 Navigate to the root directory of the project and start the TypeScript back end:
 
-``` cd Insight
-npm start ```
+cd Insight
+npm start
 
 # Start the Frontend
 
